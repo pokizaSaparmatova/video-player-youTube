@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:video_player_you_tube/controller/you_tube_page.dart';
-import 'package:video_player_you_tube/pages/video_player_page.dart';
+import 'package:video_player_you_tube/pages/activity_grid_page.dart';
 
 
 void main() {
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const VideoPlayerPage()
+      home: const ActivityGridPage()
     );
   }
 }
